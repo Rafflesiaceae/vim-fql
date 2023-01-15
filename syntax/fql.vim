@@ -51,29 +51,6 @@ hi def operators                    ctermfg=yellow
 
 hi def functions                    ctermfg=blue
 
-hi def types                        ctermfg=blue
-hi def dataTypes                    ctermfg=blue
-hi def consts                       ctermfg=magenta
-hi def charConsts                   ctermfg=magenta
-hi def objectConsts                 ctermfg=magenta
-hi def characterOccupationTypes     ctermfg=magenta
-hi def damageTypes                  ctermfg=magenta
-hi def characterShootingSkillLevels ctermfg=magenta
-hi def characterBraveryLevels       ctermfg=magenta
-hi def pedWeapons                   ctermfg=magenta
-hi def carWeapons                   ctermfg=magenta
-hi def carTypes                     ctermfg=magenta
-hi def carRemaps                    ctermfg=magenta
-hi def objectTypes                  ctermfg=magenta
-hi def shopTypes                    ctermfg=magenta
-hi def doorOpeningTypes             ctermfg=magenta
-hi def doorClosingTypes             ctermfg=magenta
-hi def arrowColourTypes             ctermfg=magenta
-hi def lockTypes                    ctermfg=magenta
-hi def radioStationTypes            ctermfg=magenta
-hi def gangTypes                    ctermfg=magenta
-hi def soundTypes                   ctermfg=magenta
-
 " Comments {{{1
 syn region rMultilineComment matchgroup=multiLineComment start="/\*" end="\*/" extend
 hi link multiLineComment Comment
